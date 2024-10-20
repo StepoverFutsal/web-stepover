@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulir</title>
+    <link link rel="stylesheet" type="text/css" href="CSS FORMULIR.css">
+</head>
+<body>
+    <header>
+        <div class="fheader"></div>
+        <div class="fsheader"></div>
+        <p class="penerimaan">PENERIMAAN PESERTA DIDIK BARU</p>
+        <br>
+        <p class="stvrheader">AKADEMI FUTSAL STEPOVER FC</p>
+        <img src="GAMBAR/LOGO_STEPOVER-removebg-preview.png" class="logostvheader">
+        <div class="stlheader"></div>
+        <p class="biaya">FORMULIR</p>
+        <div class="stlheader2"></div>
+    </header>
+
+    <div id="Sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/INDEX%20FORM.html">HOME</a>
+        <a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/FASILITAS%20FORM.html">FASILITAS</a>
+        <a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/BIAYA%20U16.html">BIAYA</a>
+        <a href="#">FORMULIR</a>
+        <a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/PROJEKK.html" class="mainmenubutton">MAIN MENU</a>
+      </div>
+      
+      <div id="main">
+        <span class="garistiga" style="font-size:30px;cursor:pointer"  onclick="openNav()">&#9776;</span>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("Sidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "hsl(249, 100%, 10%)";
+      }
+      
+      function closeNav() {
+        document.getElementById("Sidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "hsl(249, 100%, 10%)";
+      }
+      </script>
+
+      <article>
+        <div class="fform"></div>
+        <div class="fteks1"></div>
+        <p class="teks1">FORMULIR PENDAFTARAN SISWA BARU</p>
+        <p class="teks2">AKADEMI FUTSAL STEPOVER</p>
+
+        <table style="border: none; text-align: center;" cellpadding="5px" align="center" class="formpendaftaran">
+            <tr>
+                <td>
+            <form action="">
+                <lable for="Nama">Nama Lengkap :</lable>
+            </form>
+                </td>
+            <td>
+                <form>
+                    <input type="text">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+        <form action="">
+            <lable for="Tempat_Lahir">Tempat Lahir :</lable>
+        </form>
+            </td>
+        <td>
+            <form>
+                <input type="text">
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+    <form action="">
+        <lable for="Tanggal_Lahir">Tanggal Lahir :</lable>
+    </form>
+        </td>
+    <td>
+        <form>
+            <input type="date">
+        </form>
+    </td>
+</tr>
+
+<tr>
+    <td>
+<form action="">
+    <lable for="Nomor_HP">Nomor HP : (+62)</lable>
+</form>
+    </td>
+<td>
+    <form>
+        <input type="number">
+    </form>
+</td>
+</tr>
+<tr>
+    <td>
+<form action="">
+    <lable for="JK">Kelompok Usia :</lable>
+</form>
+    </td>
+<td>
+    <form>
+        <input type="radio" name="JK_1" value="U-10">U-10
+        <input type="radio" name="JK_1" value="U-13">U-13
+        <input type="radio" name="JK_1" value="U-16">U-16
+    </form>
+
+</td>
+</tr>
+
+<tr>
+    <td>
+<form action="">
+    <lable for="Alamat">Alamat :</lable>
+</form>
+    </td>
+<td>
+    <form>
+        <textarea name="Alamat"></textarea>
+    </form>
+</td>
+</tr>
+
+<tr>
+    <td>
+<form action="">
+    <lable for="Alamat">Alamat Email :</lable>
+</form>
+    </td>
+<td>
+    <form>
+        <textarea name="Email"></textarea>
+    </form>
+</td>
+</tr>
+
+<tr>
+    <td>
+<form action="">
+    <lable for="KTP">Unggah Akta Lahir :</lable>
+</form>
+    </td>
+<td>
+    <form>
+        <input type="file" name="KTP_1">
+    </form>
+</td>
+</tr>
+
+<tr>
+    <td>
+<form action="">
+    <lable for="Pas Foto">Unggah Pas Foto :</lable>
+</form>
+    </td>
+<td>
+    <form>
+        <input type="file" name="Pas">
+    </form>
+</td>
+</tr>
+
+            </table>
+
+<a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/FORM%20SUBMITED.html"><div class="buttonkirim"></a>
+<a href="file:///C:/Users/Lenovo/Documents/INFORMATIKA/IF%204%20-%20XI/PROJEK%20INFORMATIKA/FORM%20SUBMITED.html"><div class="bkirim"></div></a> 
+<p class="kirim">KIRIM</p>
+</div>
+      </article>
+
+      <footer>
+        <p class="tstvfooter">STEPOVER FUTSAL ACADEMY</p>
+        <div class="stlfooterstv"></div>
+        <div class="ffooter"></div>
+        <figure>
+            <div class="flogofooter"></div>
+            <img src="GAMBAR/stvryelow.png" class="stvrfooter">
+        </figure>
+    
+        
+        <div class="stlfooteradress"></div>
+        <p class="sfstvrfooter">Sekolah Futsal Stepover</p>
+        <br>
+        <p class="adressfooter">Jalan Desa, No 54 Kiaracondong,<br> Kota Bandung</p>
+    
+        <br>
+        <div class="ftelpfooter"></div>
+        <img src="GAMBAR/logo_telephone_png-removebg-preview.png" class="footertelp"><p class="telpfooter">022-16062020</p>
+    
+        <br>
+        <div class="ffaxfooter"></div>
+        <img src="GAMBAR/fax_png-removebg-preview.png" class="footerfax"><p class="faxfooter">022-16062020</p>
+        
+    </footer>
+</body>
+</html>

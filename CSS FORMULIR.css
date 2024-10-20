@@ -1,0 +1,351 @@
+body{
+    background-color: rgb(7, 7, 60);
+    height: auto;
+}
+
+.fheader{
+    width: 102%;
+    height: 150px;
+    background-color: black;
+    margin-left: -10px;
+}
+
+.fsheader{
+    width: 102%;
+    height: 45px;
+    background-color: rgb(3, 0, 38);
+    margin-left: -10px;
+}
+
+.penerimaan{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    margin-top: -170px;
+    margin-left:180px ;
+}
+
+.stvrheader{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    margin-top: -140px;
+    margin-left:180px ;
+}
+
+.logostvheader{
+    width: 10em;
+    height: 8em;
+    position: absolute;
+    margin-top: -210px;
+}
+
+.stlheader{
+    width: 2px;
+    height: 7em;
+    background-color: white;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 150px;
+}
+
+.biaya{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: #eaff00;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 671px;
+}
+
+.stlheader2{
+    width: 130px;
+    height: 4px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 673px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffb300;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #090258;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+
+  .garistiga{
+    color: hsl(0, 0%, 100%);
+    margin-top: -75px;
+    position: absolute;
+  }
+
+  .garistiga:hover{
+    filter: brightness(60%);
+  }
+
+  .mainmenubutton{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #090258;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 400px;
+  }
+  
+  .sidenav a:hover {
+    color: #eaff00;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  .fform{
+    width: 70em;
+    height: 45em;
+    border-radius: 3em;
+    background-color: #3203bf;
+    margin-left: 10em;
+    filter: brightness(80%);
+  }
+
+  .fteks1{
+    width: 70em;
+    height: 10em;
+    border-radius: 3em;
+    background-color: #000648;
+    margin-left: 10em;
+    filter: brightness(80%);
+    margin-top: -720px;
+    position: absolute;
+  }
+
+  .teks1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #eaff00;
+    position: absolute;
+    margin-top: -710px;
+    margin-left: 390px;
+  }
+
+  .teks2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 800PX;
+    color: #ffffff;
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 560px;
+  }
+
+  .formpendaftaran{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 480px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .bkirim{
+    width: 100px;
+    height: 30px;
+    background-color: #eaff00;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 680px;
+  }
+
+  .kirim{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #090258;
+    position: absolute;
+    margin-top: -38.5px;
+    margin-left: 702px;
+  }
+
+.buttonkirim:hover{
+    filter: brightness(60%);
+}
+
+.ffooter{
+    width: 102%;
+    margin-left: -10px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 1em;
+}
+
+.tstvfooter{
+    color: white;
+    font-size: 4em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding-left: 220px;
+    margin-top: 20px;
+    position: absolute;
+    font-weight: bolder;
+
+}
+
+.flogofooter{
+    width: 9em;
+    height: 10em;
+    background-color: black;
+    position: absolute;
+    margin-top: -195px;
+    margin-left: 8px;
+    border-radius: 1em;
+}
+
+.stvrfooter{
+    width: 16em;
+    height: 18em;
+    position: absolute;
+    margin-left:-45.5px ;
+    margin-top: -258px;
+}
+
+.stlfooterstv{
+    width: 890px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute;
+    margin-left: 222px;
+    margin-top: 100px;
+}
+
+
+.stlfooteradress{
+    width: 2px;
+    height: 140px;
+    background-color: yellow;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 1200px;
+}
+.sfstvrfooter{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 1240px;
+    font-weight: 600;
+}
+
+.adressfooter{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 1240px;
+    font-weight: 200;
+}
+
+
+.footertelp{
+    color: white;
+    position: absolute;
+    margin-top: -129px;
+    margin-left: 1242px;
+   width: 1.5em;
+   height: 1.5em;
+}
+
+.ftelpfooter{
+    background-color: rgb(11, 113, 255);
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 1241px;
+   width: 1.7em;
+   height: 1.7em;
+   border-radius: 3em;
+}
+
+.telpfooter{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 1280px;
+    font-weight: 150;
+}
+
+.footerfax{
+    color: white;
+    position: absolute;
+    margin-top: -114px;
+    margin-left: 1242px;
+   width: 1.5em;
+   height: 1.5em;
+}
+
+.ffaxfooter{
+    background-color: rgb(11, 113, 255);
+    position: absolute;
+    margin-top: -115px;
+    margin-left: 1241px;
+   width: 1.7em;
+   height: 1.7em;
+   border-radius: 3em;
+}
+
+.faxfooter{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: absolute;
+    margin-top: -115px;
+    margin-left: 1280px;
+    font-weight: 150;
+}
